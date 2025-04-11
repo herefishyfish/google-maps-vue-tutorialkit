@@ -2,6 +2,8 @@
 type: lesson
 title: Removing Map Elements
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Removing Map Elements

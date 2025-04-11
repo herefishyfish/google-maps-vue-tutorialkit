@@ -2,6 +2,8 @@
 type: lesson
 title: Registering the Map View
 focus: /src/app.ts
+editor:
+  fileTree: false
 ---
 
 # Registering the Map View

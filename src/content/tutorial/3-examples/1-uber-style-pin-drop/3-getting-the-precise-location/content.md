@@ -2,6 +2,8 @@
 type: lesson
 title: Getting the precise location
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Getting the precise location

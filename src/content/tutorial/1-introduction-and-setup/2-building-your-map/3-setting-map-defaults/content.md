@@ -2,6 +2,8 @@
 type: lesson
 title: Setting Map Default Properties
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Setting Map Default Properties

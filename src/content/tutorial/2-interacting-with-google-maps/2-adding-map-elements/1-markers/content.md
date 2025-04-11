@@ -2,6 +2,8 @@
 type: lesson
 title: Adding Markers to the Map
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Adding Markers to the Map

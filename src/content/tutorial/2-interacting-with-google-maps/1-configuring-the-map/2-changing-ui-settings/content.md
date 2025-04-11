@@ -2,6 +2,8 @@
 type: lesson
 title: Changing UI Settings
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Changing UI Settings

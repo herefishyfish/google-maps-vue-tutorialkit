@@ -2,6 +2,8 @@
 type: lesson
 title: Adding the Map View
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Adding the Map View

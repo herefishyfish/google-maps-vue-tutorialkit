@@ -2,6 +2,8 @@
 type: lesson
 title: Getting the Current Camera
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Getting the Current Camera

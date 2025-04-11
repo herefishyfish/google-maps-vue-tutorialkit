@@ -2,6 +2,8 @@
 type: lesson
 title: Animating The Camera Position
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Animating The Camera Position

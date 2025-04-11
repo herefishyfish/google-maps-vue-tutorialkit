@@ -2,6 +2,8 @@
 type: lesson
 title: Binding Map Events
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Binding Map Events

@@ -2,6 +2,8 @@
 type: lesson
 title: Setting the Map Type
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Setting the Map Type

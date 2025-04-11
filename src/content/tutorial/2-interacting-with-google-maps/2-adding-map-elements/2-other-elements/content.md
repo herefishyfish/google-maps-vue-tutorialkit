@@ -2,6 +2,8 @@
 type: lesson
 title: Adding Other Map Elements
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Adding Other Map Elements

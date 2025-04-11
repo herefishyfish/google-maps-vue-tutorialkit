@@ -2,6 +2,8 @@
 type: lesson
 title: Setting Up the View
 focus: /src/components/Home.vue
+editor:
+  fileTree: false
 ---
 
 # Setting Up the View
