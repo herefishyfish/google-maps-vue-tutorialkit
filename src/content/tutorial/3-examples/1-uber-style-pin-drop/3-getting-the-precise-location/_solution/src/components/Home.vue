@@ -26,7 +26,7 @@ function getPreciseLocation() {
         @ready="onMapReady"
       />
       <Image
-        src="~/assets/pin.png"
+        src="https://ns-vue-maps-tutorial.web.app/pin.png"
       />
       <Button
         text="Get Precise Location"

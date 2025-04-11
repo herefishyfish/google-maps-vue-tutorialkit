@@ -17,7 +17,7 @@ Sometimes we all need to think outside of the "view"... Typically, we think of t
     <GridLayout>
       <MapView />
       <Image
-        src="~/assets/pin.png"
+        src="https://ns-vue-maps-tutorial.web.app/pin.png"
       />
     </GridLayout>
   </Page>

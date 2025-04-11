@@ -43,7 +43,7 @@ function toggleEditing() {
     <GridLayout rows="* auto">
       <MapView @ready="onMapReady" />
       <Image
-        src="https://d81gju9fq33lb.cloudfront.net/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcm9zc2hhaXJDb2RlIjoiQ1NHTy15aVhtMy1WUllWNi1QU0dyZi1aRXlEYy03Sk5NQiIsIndpZHRoIjoxMjgsImhlaWdodCI6MTI4fQ.l41XXX87TjVThHcQ3f0ecA4qWudE-t_7kXed2ibKGb8"
+        src="https://ns-vue-maps-tutorial.web.app/pin.png"
         :visibility="editing ? 'visible' : 'collapse'"
       />
       <Button

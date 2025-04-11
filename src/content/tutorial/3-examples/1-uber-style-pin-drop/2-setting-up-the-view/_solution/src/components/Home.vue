@@ -4,7 +4,7 @@
     <GridLayout>
       <MapView />
       <Image
-        src="~/assets/pin.png"
+        src="https://ns-vue-maps-tutorial.web.app/pin.png"
       />
     </GridLayout>
   </Page>
