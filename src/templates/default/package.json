@@ -1,14 +1,25 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "name": "@nativescript-vue/stackblitz-template",
+  "main": "src/app.ts",
+  "version": "1.0.0",
+  "dependencies": {
+    "@nativescript/core": "~8.8.6",
+    "@nativescript/google-maps": "^1.7.5",
+    "nativescript-vue": "3.0.0"
   },
   "devDependencies": {
-    "vite": "^5.2.0"
+    "@nativescript/preview-cli": "1.0.14",
+    "@nativescript/stackblitz": "0.0.8",
+    "@nativescript/tailwind": "~2.1.0",
+    "@nativescript/types": "~8.8.0",
+    "@nativescript/webpack": "~5.0.0",
+    "@types/node": "~17.0.21",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.7.3"
+  },
+  "stackblitz": {
+    "installDependencies": true,
+    "compileTrigger": "save",
+    "startCommand": "setup-nativescript-stackblitz && ns preview"
   }
 }
