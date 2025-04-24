@@ -12,14 +12,19 @@
   },
   "dependencies": {
     "@tutorialkit/components-react": "0.1.2",
+    "nativescript-vue": "^3.0.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@astrojs/check": "^0.7.0",
     "@astrojs/react": "^3.6.0",
     "@iconify-json/ph": "^1.1.13",
     "@iconify-json/svg-spinners": "^1.1.2",
+    "@nativescript/core": "~8.9.2",
+    "@nativescript/types": "~8.9.1",
+    "@nativescript/google-maps": "^1.7.5",
     "@tutorialkit/astro": "0.1.2",
     "@tutorialkit/types": "0.1.2",
     "@types/node": "^20.14.6",

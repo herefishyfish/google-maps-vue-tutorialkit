@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref } from "nativescript-vue";
 import { alert } from "@nativescript/core";
-import { MapReadyEvent, GoogleMap, Marker } from "@nativescript/google-maps";
+import { type MapReadyEvent, GoogleMap, Marker } from "@nativescript/google-maps";
 
 let map: GoogleMap | null = null;
 let marker: Marker | null = null;

@@ -12,5 +12,9 @@
   },
   "exclude": [
     "dist"
-  ]
+  ],
+  "vueCompilerOptions": {
+    "target": 3,
+    "lib": "nativescript-vue"
+  }
 }
