@@ -14,11 +14,10 @@
 
 <script lang="ts" setup>
 import { ImageSource } from "@nativescript/core";
-import { type MapReadyEvent, GoogleMap, MapType } from "@nativescript/google-maps";
+import { type MapReadyEvent, GoogleMap } from "@nativescript/google-maps";
 
 async function onMapReady(args: MapReadyEvent) {
   const map = args.map as GoogleMap;
-  map.mapType = MapType.Hybrid;
 
   const imageSource = await ImageSource.fromUrl(
     "https://ns-vue-maps-tutorial.web.app/pin.png"

@@ -16,11 +16,9 @@
 import {
   type MapReadyEvent,
   GoogleMap,
-  MapType,
 } from "@nativescript/google-maps";
 
 function onMapReady(args: MapReadyEvent) {
   const map = args.map as GoogleMap;
-  map.mapType = MapType.Hybrid;
 }
 </script>
