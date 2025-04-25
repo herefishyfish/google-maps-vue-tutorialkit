@@ -5,7 +5,7 @@
       <MapView />
       <Image
         src="https://ns-vue-maps-tutorial.web.app/pin.png"
-        width="48" height="48"
+        width="128" height="128"
       />
     </GridLayout>
   </Page>
