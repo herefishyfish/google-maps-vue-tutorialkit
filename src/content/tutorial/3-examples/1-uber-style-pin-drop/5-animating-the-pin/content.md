@@ -8,9 +8,9 @@ editor:
 
 # Animating the pin
 
-Because we're using a custom view as the editing pin, we can animate it to make it look like it's being dropped on the map based on the user's touch. 
+Because we're using a custom view as the editing pin, we can animate the pin just like any regular view. So let's give the pin a cool animation to let the user know that they're moving it based on the their touch. 
 
-We can achieve this by listening to the `cameraPosition` event of the map and updating the position of the pin accordingly.
+We can achieve this by tracking the state of the user's interaction with the map. Specifically, by listening to the `cameraPosition` event, we determine when the user has begun interacting with the map (for example, the `"start"` state) and when the interaction has settled (the `"idle"` state). This enables us to update the pin's state in real time and animate it accordingly, ensuring a fluid user experience. In this example, while the user is moving the map, the pin rotates to indicate movement, and once the map stops moving, the pin animates back to its default orientation.
 
 ```html
 <MapView 
@@ -44,7 +44,7 @@ function onCameraPosition(args: CameraPositionEvent) {
 }
 ```
 
-We can also use these events to disable the savable button while the pin is moving. This way, the user won't be able to save the location until the pin has stopped moving.
+To enhance the user experience, we can leverage these events to temporarily disable the save button while the pin is in motion. This ensures that the user cannot save the location until the pin has settled into its final position, preventing accidental or incorrect saves.
 
 ```html
 <Button

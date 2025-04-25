@@ -5,4 +5,5 @@ prepareCommands:
   - ['npm i @nativescript/stackblitz', 'Installing dependencies']
   - ['setup-nativescript-stackblitz', 'Setting up NativeScript']
 autoReload: false
+logoLink: https://nativescript.org/
 ---
