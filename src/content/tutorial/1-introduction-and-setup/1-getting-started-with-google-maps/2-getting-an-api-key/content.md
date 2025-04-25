@@ -8,7 +8,7 @@ editor: false
 
 This tutorial will guide you through the process of generating an API key for Google Maps, which is essential for integrating Google Maps into your own applications. However if you are using the NativeScript Preview app, you can skip this step as the app already has the Google Maps API configured.
 
-If you plan to continue with the tutorial on nativescript preview click [here](/1-introduction-and-setup/2-building-your-map/1-registering-the-map-view) to skip the native setup.  
+#### If you plan to continue with the tutorial on nativescript preview click [here](/1-introduction-and-setup/2-building-your-map/1-registering-the-map-view) to skip the native setup.  
 <!-- GOTO Next -->
 
 
