@@ -29,14 +29,22 @@ function onCameraPosition(args: CameraPositionEvent) {
   if (args.state === "idle" && editing.value) {
     moving.value = false;
     pinElement.animate({
-      rotate: 0,
+      translate: {
+        x: 0,
+        y: 0,
+      },
+      scale: 1,
       duration: 300,
       curve: "easeInOut",
     });
   } else if (args.state === "start" && editing.value) {
     moving.value = true;
     pinElement.animate({
-      rotate: 45,
+      translate: {
+        x: 0,
+        y: -50,
+      },
+      scale: 0.8,
       duration: 300,
       curve: "easeInOut",
     });
