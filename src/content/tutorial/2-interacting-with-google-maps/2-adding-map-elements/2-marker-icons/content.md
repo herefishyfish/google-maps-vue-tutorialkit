@@ -13,7 +13,7 @@ Custom icons for markers not only make your map look sharper—they also help co
 - A remote URL
 - A local file path
 - A Base64 string
-- A native image object (iOS/Android)
+- A native image object (Bitmap for Android or a UIImage for iOS)
 
 Below is an example that loads an image from the web. You can easily switch this out for a local file or a Base64 string if you prefer.
 
