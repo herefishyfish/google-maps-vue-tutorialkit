@@ -71,7 +71,7 @@ function onCameraPosition(args: CameraPositionEvent) {
       <Image
         ref="pin"
         src="https://ns-vue-maps-tutorial.web.app/pin.png"
-        width="24" height="24"
+        width="48" height="48"
         :visibility="editing ? 'visible' : 'collapse'"
       />
       <Button

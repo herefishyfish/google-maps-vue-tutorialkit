@@ -18,7 +18,7 @@ Sometimes we all need to think outside of the "view"... Typically, we think of t
       <MapView />
       <Image
         src="https://ns-vue-maps-tutorial.web.app/pin.png"
-        width="24" height="24"
+        width="48" height="48"
       />
     </GridLayout>
   </Page>
