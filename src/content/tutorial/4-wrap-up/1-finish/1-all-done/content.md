@@ -1,9 +1,11 @@
 ---
 type: lesson
-title: Animating the pin
+title: All Done!
 focus: /src/components/Home.vue
-editor:
-  fileTree: false
+editor: false
+previews: false
+terminal: false
+
 ---
 
 # All Done!
